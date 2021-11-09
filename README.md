@@ -31,7 +31,7 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 # Database Schema and ETL
 After close examination of the dataset, I have determined to create a Star Schema (shown below) that creates 1 Fact Table and 4 Dimension Tables
 
-<img src="images/erd(3).png" alt="ERD Diagram" width="800"/>
+<img src="images/erd (3).png" alt="ERD Diagram" width="800"/>
 
 ETL Process is performed for the Song Dataset to populate the Songs and Artists table. ETL Process is also performed for the Log Dataset to populate the Time and Users table. More information at the etl.ipynb file.
 
